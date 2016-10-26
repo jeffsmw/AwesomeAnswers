@@ -8,6 +8,6 @@ class CreateAnswers < ActiveRecord::Migration[5.0]
       t.references :question, foreign_key: true
 
       t.timestamps
-    endkype
+    end
   end
 end
